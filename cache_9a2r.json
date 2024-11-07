@@ -1,0 +1,9 @@
+{
+    "database": {
+      "DB_HOST": "localhost",
+      "DB_USER": "k1n9",
+      "DB_PASSWORD": "k1n9",
+      "DB_NAME": "testhub"
+    }
+  }
+  

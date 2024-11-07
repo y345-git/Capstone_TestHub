@@ -1,0 +1,295 @@
+    {
+        "modules": [
+            {
+                "module_name": "System Parameters",
+                "submodules": [
+                    {
+                        "name": "Institute Information",
+                        "file": "System_Parameters/institute_info.py"
+                    },
+                    {
+                        "name": "Block Supervisors",
+                        "submodules": [
+                            {
+                                "name": "Add / Edit / Delete",
+                                "file": "System_Parameters/block_supervisors_add_edit_delete.py"
+                            },
+                            {
+                                "name": "Supervisor's Constraints",
+                                "file": "System_Parameters/block_supervisors_constraints.py"
+                            },
+                            {
+                                "name": "Create Supervision Order",
+                                "file": "System_Parameters/block_supervisors_supervision_order.py"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Control Room Team",
+                        "file": "System_Parameters/control_room_team.py"
+                    },
+                    {
+                        "name": "Daily Attendance",
+                        "file": "System_Parameters/daily_attendance.py"
+                    },
+                    {
+                        "name": "Controller Details",
+                        "submodules": [
+                            {
+                                "name": "Add / Edit / Delete",
+                                "file": "System_Parameters/controller_details_add_edit_delete.py"
+                            },
+                            {
+                                "name": "Preview List All",
+                                "file": "System_Parameters/controller_details_preview_list.py"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "module_name": "Exam / Examinee Details",
+                "submodules": [
+                    {
+                        "name": "Time Table - Entry / Edit",
+                        "file": "Exam_Details/timetable_entry_edit.py"
+                    },
+                    {
+                        "name": "Time Table - Import 'XLS' File",
+                        "file": "Exam_Details/timetable_import_xls.py"
+                    },
+                    {
+                        "name": "Examinee Seat Numbers",
+                        "submodules": [
+                            {
+                                "name": "MSBTE's Seating Chart",
+                                "submodules": [
+                                    {
+                                        "name": "Create Seating Chart Manually",
+                                        "file": "Exam_Details/seating_chart_manual.py"
+                                    },
+                                    {
+                                        "name": "Import Seating Chart 'XLS' File",
+                                        "file": "Exam_Details/seating_chart_import_xls.py"
+                                    },
+                                    {
+                                        "name": "Preview Board Seating Chart",
+                                        "file": "Exam_Details/seating_chart_preview.py"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Institute Level Seat Numbers",
+                                "file": "Exam_Details/institute_level_seat_numbers.py"
+                            },
+                            {
+                                "name": "Board Specific Seat Numbers",
+                                "file": "Exam_Details/board_specific_seat_numbers.py"
+                            },
+                            {
+                                "name": "Examinee History Codes",
+                                "file": "Exam_Details/examinee_history_codes.py"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Block Preparation Booklet",
+                        "file": "Exam_Details/block_preparation_booklet.py"
+                    },
+                    {
+                        "name": "Preview Of Time Table",
+                        "file": "Exam_Details/preview_timetable.py"
+                    }
+                ]
+            },
+            {
+                "module_name": "Exam Block Details",
+                "submodules": [
+                    {
+                        "name": "Prepare Examination Block",
+                        "submodules": [
+                            {
+                                "name": "Manual Preparation",
+                                "file": "Exam_Block_Details/manual_preparation.py"
+                            },
+                            {
+                                "name": "Automatic Preparation",
+                                "file": "Exam_Block_Details/automatic_preparation.py"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Change Assigned Supervisor",
+                        "file": "Exam_Block_Details/change_assigned_supervisor.py"
+                    },
+                    {
+                        "name": "Delete Session Blocks (All)",
+                        "file": "Exam_Block_Details/delete_session_blocks.py"
+                    },
+                    {
+                        "name": "Supplement Requisition Form",
+                        "file": "Exam_Block_Details/supplement_requisition_form.py"
+                    },
+                    {
+                        "name": "Examinee - Tracker / Details",
+                        "file": "Exam_Block_Details/examinee_tracker_details.py"
+                    }
+                ]
+            },
+            {
+                "module_name": "Absent / Copy Case Nos.",
+                "submodules": [
+                    {
+                        "name": "Absent Seat Nos. - Entry / Edit",
+                        "file": "Absent_Copy_Case/absent_seat_entry_edit.py"
+                    },
+                    {
+                        "name": "CPS Seat Nos. - Entry / Edit",
+                        "file": "Absent_Copy_Case/cps_seat_entry_edit.py"
+                    },
+                    {
+                        "name": "Show Cause & Related Docs",
+                        "file": "Absent_Copy_Case/show_cause_related_docs.py"
+                    },
+                    {
+                        "name": "Governing For CPS Bundle/s",
+                        "file": "Absent_Copy_Case/governing_cps_bundles.py"
+                    },
+                    {
+                        "name": "View - Registered Copy Cases",
+                        "file": "Absent_Copy_Case/view_registered_copy_cases.py"
+                    }
+                ]
+            },
+            {
+                "module_name": "Reports",
+                "submodules": [
+                    {
+                        "name": "Examinee History For Session",
+                        "file": "Reports/examinee_history_session.py"
+                    },
+                    {
+                        "name": "Student's Attendance Report",
+                        "file": "Reports/students_attendance_report.py"
+                    },
+                    {
+                        "name": "Supervisor Report (Appendix - 'B')",
+                        "file": "Reports/supervisor_report.py"
+                    },
+                    {
+                        "name": "Block Wise Examinee Seating Chart",
+                        "file": "Reports/block_wise_seating_chart.py"
+                    },
+                    {
+                        "name": "Seating Arrangement For Examinee",
+                        "file": "Reports/seating_arrangement_examinee.py"
+                    },
+                    {
+                        "name": "Examination Hall Black Board Details",
+                        "file": "Reports/exam_hall_blackboard_details.py"
+                    },
+                    {
+                        "name": "Document for Officer In-Charge",
+                        "file": "Reports/document_officer_in_charge.py"
+                    },
+                    {
+                        "name": "Session Wise Blank Absent Report",
+                        "file": "Reports/session_blank_absent_report.py"
+                    },
+                    {
+                        "name": "Click To Print All Reports For Session",
+                        "file": "Reports/print_all_reports_session.py"
+                    },
+                    {
+                        "name": "Q.P. Packet Receipt To Controller",
+                        "file": "Reports/qp_packet_receipt_controller.py"
+                    },
+                    {
+                        "name": "Attendance Report - 'A' (Consolidated)",
+                        "file": "Reports/attendance_report_consolidated.py"
+                    },
+                    {
+                        "name": "Packing Slip For Answer Book Bundle",
+                        "file": "Reports/packing_slip_answer_book.py"
+                    },
+                    {
+                        "name": "Daily Answer Book Bundle Receipt",
+                        "file": "Reports/daily_answer_book_receipt.py"
+                    },
+                    {
+                        "name": "Daily Question Paper Account",
+                        "file": "Reports/daily_question_paper_account.py"
+                    },
+                    {
+                        "name": "Advance Information Of Q.P. Packets",
+                        "file": "Reports/advance_info_qp_packets.py"
+                    }
+                ]
+            },
+            {
+                "module_name": "System Tools",
+                "submodules": [
+                    {
+                        "name": "Std Operating Procedures",
+                        "file": "System_Tools/std_operating_procedures.py"
+                    },
+                    {
+                        "name": "MSBTE's Exam Manual",
+                        "file": "System_Tools/exam_manual.py"
+                    },
+                    {
+                        "name": "Time Table Correctness",
+                        "file": "System_Tools/timetable_correctness.py"
+                    },
+                    {
+                        "name": "Clear Paper Code 'XLS' File Path",
+                        "file": "System_Tools/clear_paper_code_xls.py"
+                    },
+                    {
+                        "name": "Import Mark Sheet 'XLS' File",
+                        "file": "System_Tools/import_marksheet_xls.py"
+                    },
+                    {
+                        "name": "Manage Paper Equivalence",
+                        "file": "System_Tools/manage_paper_equivalence.py"
+                    },
+                    {
+                        "name": "Software Updated Reports",
+                        "file": "System_Tools/software_updated_reports.py"
+                    },
+                    {
+                        "name": "Disconnect Connected Institute",
+                        "file": "System_Tools/disconnect_institute.py"
+                    },
+                    {
+                        "name": "Module Definition / Rule Setting",
+                        "file": "System_Tools/module_definition_rule_setting.py"
+                    },
+                    {
+                        "name": "Block Arrangement (Layout)",
+                        "file": "System_Tools/block_arrangement_layout.py"
+                    },
+                    {
+                        "name": "MSBTE's Remuneration Rates",
+                        "file": "System_Tools/remuneration_rates.py"
+                    },
+                    {
+                        "name": "Generate Remuneration Bills",
+                        "file": "System_Tools/generate_remuneration_bills.py"
+                    },
+                    {
+                        "name": "Take Software Backup",
+                        "file": "System_Tools/take_software_backup.py"
+                    },
+                    {
+                        "name": "Load Previously Taken Backup",
+                        "file": "System_Tools/load_previous_backup.py"
+                    },
+                    {
+                        "name": "Prepare For New Examination",
+                        "file": "System_Tools/prepare_new_examination.py"
+                    }
+                ]
+            }
+        ]
+    }

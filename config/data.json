@@ -1,0 +1,81 @@
+{
+    "fonts": {
+        "h1": [
+            "Play",
+            22,
+            "bold"
+        ],
+        "h2": [
+            "Lexend",
+            18,
+            "normal"
+        ],
+        "h3": [
+            "Lexend",
+            16,
+            "normal"
+        ],
+        "h4": [
+            "Lexend",
+            14,
+            "normal"
+        ]
+    },
+    "departments": [
+        {
+            "code": "AE",
+            "name": "Automobile Engineering"
+        },
+        {
+            "code": "CE",
+            "name": "Civil Engineering"
+        },
+        {
+            "code": "CO",
+            "name": "Computer Engineering"
+        },
+        {
+            "code": "EE",
+            "name": "Electrical Engineering"
+        },
+        {
+            "code": "HA",
+            "name": "Computer Hardware and Maintenance"
+        },
+        {
+            "code": "ME",
+            "name": "Mechanical Engineering"
+        },
+        {
+            "code": "MK",
+            "name": "Mechatronics Engineering"
+        },
+        {
+            "code": "SC",
+            "name": "Science and Humanities"
+        }
+    ],
+    "roles": [
+        "HEAD OF DEPT",
+        "LAB ASSISTANT",
+        "LECTURER"
+    ],
+    "institute": {
+        "INS_CODE": "1740",
+        "INS_NAME": "Rajarambapu Institute of Technology",
+        "INS_ADDRESS": "RAJARAMNAGAR",
+        "EXAM_CENTER": "Main Campus",
+        "DISTRIBUTION_CENTER": "Central Library"
+    },
+    "dev": {
+        "phone": "+91 82086 07477",
+        "email": "support@examseating.com",
+        "website": "https://acharya.tech",
+        "address": "Rajarambapu Institute of Technology"
+    },
+    "exam_details": {
+        "EXAM_PERIOD": "N/A",
+        "EXAM_START_DATE": "2023-04-05",
+        "EXAM_END_DATE": "2024-01-11"
+    }
+}

@@ -1,0 +1,12 @@
+customtkinter
+mysql-connector-python
+tkcalendar
+python-dotenv
+
+
+
+pyinstaller --onefile --windowed --add-data ".env;." --add-data "institute_info.env;." --add-data "home.py;." --add-data "modules.json;." --add-data "Absent_Copy_Case_Nos;Absent_Copy_Case_Nos" --add-data "System_Parameters;System_Parameters" --add-data "Exam_Block_Details;Exam_Block_Details" --add-data "Exam_Examinee_Details;Exam_Examinee_Details" --add-data "Reports;Reports" --add-data "System_Tools;System_Tools" --add-data "config;config" --add-data "essentials;essentials" --add-data "Exit;Exit" --hidden-import dotenv --hidden-import tkcalendar --hidden-import customtkinter --hidden-import mysql.connector --hidden-import mysql.connector.errors --hidden-import os --hidden-import sys --hidden-import datetime --hidden-import pathlib --hidden-import collections --hidden-import json --hidden-import re --hidden-import time --hidden-import threading --hidden-import functools --hidden-import configparser app.py
+
+
+
+pyinstaller --onefile --windowed --add-data "institute_info.env;." --add-data ".env;." --add-data "home.py;." --add-data "modules.json;." --add-data "Absent_Copy_Case_Nos;Absent_Copy_Case_Nos" --add-data "System_Parameters;System_Parameters" --add-data "Exam_Block_Details;Exam_Block_Details" --add-data "Exam_Examinee_Details;Exam_Examinee_Details" --add-data "Reports;Reports" --add-data "System_Tools;System_Tools" --add-data "config;config" --add-data "essentials;essentials" --add-data "Exit;Exit" --hidden-import dotenv --hidden-import tkcalendar --hidden-import customtkinter --hidden-import mysql.connector --hidden-import os --hidden-import sys --hidden-import datetime --hidden-import pathlib --hidden-import collections --hidden-import json --hidden-import re --hidden-import time --hidden-import threading --hidden-import functools --hidden-import configparser app.py
