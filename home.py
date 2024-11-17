@@ -79,9 +79,11 @@ def display_module(root):
                 "Real-time Data Updates": "Keep track of real-time changes and updates during the exam period.",
                 "Easy-to-use Interface": "The system has a user-friendly interface for easy navigation."
             }
+            main_frame = ctk.CTkScrollableFrame(parent)
+            main_frame.pack(pady=10, padx=20, fill="x")
 
             for feature, description in features.items():
-                feature_frame = ctk.CTkFrame(parent, fg_color="#3e3e3e")
+                feature_frame = ctk.CTkFrame(main_frame, fg_color="#3e3e3e")
                 feature_frame.pack(pady=10, padx=20, fill="x")
 
                 feature_label = ctk.CTkLabel(feature_frame, text=feature, font=ctk.CTkFont(size=16, weight="bold"), text_color="#FFDD44")
